@@ -1,0 +1,10 @@
+NVCC = nvcc
+NVCCFLAGS = -std=c++11 -O2
+
+all: main
+
+main: main.cu
+	$(NVCC) $(NVCCFLAGS) -o main main.cu
+
+clean:
+	rm -f main
