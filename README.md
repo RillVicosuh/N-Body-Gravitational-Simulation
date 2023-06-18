@@ -1,7 +1,5 @@
 # Accelerating the N-Body Gravitational Problem Using CUDA
 
-![Project Status: Completed](https://img.shields.io/badge/Project%20Status-Completed-green)
-
 This project provides an optimized solution for the classical N-Body gravitational calculation problem, a computationally intensive task that predicts the individual motions of a group of celestial objects interacting with each other gravitationally. The project leverages the parallel processing capabilities of CUDA and GPUs to transform a CPU-based sequential computation into an efficient GPU-accelerated parallel computation.
 
 ## Overview
